@@ -1,0 +1,287 @@
+.nav-item{
+	/* remove the dot from the list*/
+	list-style-type: none;
+	display:block;
+	margin:auto;
+	width:100%;
+	position:relative;
+       }
+/*remove the underline from the links in the navigation list*/
+.nav-item a{
+	text-decoration: none;
+	color: orange;
+	font-size:26;
+	padding:15px;
+	margin:35px;
+	border: 3px solid green;
+	border-width:1px;
+	border-radius: 8px ;
+	text-shadow: 1px 1px blue;
+	float:left;
+	background-color:clear;
+	font-weight: bold;
+	display:inline;
+}
+nav{
+	background-color:#e3df8d; /*color added to the nav bar */
+	height: 350px;
+}
+.header-section{
+	background-image:url("images/colorful-shopping-bags.jpg");
+	background-repeat: no repeat;
+	background-size: 100% 350px;
+	height: 350px;
+	color:#3b4a0b;
+	text-align:center;
+	font-size:30;
+}
+.header-section button{
+	background-color:#d6d49a;
+	color:black;
+	font-size:30;
+	border: 2px solid green;
+	border-radius: 8px;
+}
+.header-section button a:hover{
+	background-color: #9e7a85;
+	outline:2px solid green;
+	border-radius: 8px;
+}
+.header-section a{
+	text-decoration:none;
+	color:#3b4a0b;
+}
+.product{
+	border:2px solid #d6d49a;
+	background-color:#615340;
+	align image:center;
+}
+ .nav-item img{
+	 border: 3px solid green;
+	border-width:1px;
+	border-radius: 8px ;
+	display:block;
+}
+.nav-item a:hover{
+	background-color:white;
+	color:black;
+}
+.nav-item a:visited{
+	color:#c7342c;
+}
+.nav-item a:active{
+	color:pink;
+}
+.products{
+	display:block;
+	border: 15px solid green;
+	padding:20px;
+	border-width:2px;
+	border-radius: 15px ;
+	margin:50px;
+	width:250px;
+	text-align:center;
+	background-color:#d6cabc;
+	"width="200" height="250"
+}
+.products p{
+	color: #292520;
+	text-shadow: 0.5px 0.5px #717831;
+	font-weight: bold;
+	text-align:center;
+	display:block;
+	font-size:26;
+}
+.products button{
+	border: 2px solid blue;
+	border-radius: 15px;
+	background-color: #717831; 
+	padding-right:5px 7px 5px 7px;
+	display:block;
+	text-align:center;
+	width:100px;
+	height:50px;
+	font-size:24;
+	font-weight: bold;
+	margin-top: 5px;
+	color:white;
+}
+.products button:hover{
+	color:#969408;
+	border:none;
+	cursor:pointer;
+	background-color:#5e3f58;
+	cursor:pointer;
+}
+footer{
+	text-align:center;
+	background-color:#d9e3a8;
+	font-family:monaco;
+	padding:10px;
+}
+footer p{
+	font-size:25px;
+	font-weight:bold;
+	font-family:Comic Sans;
+}
+footer a{
+	text-decoration:none;
+	font-size:20;
+	color:#5c4808;
+	padding:8px;
+}
+footer a:hover{
+	background-color: #9e7a85;
+	border:1px solid #9e7a85 ;
+	border-radius:40px;
+	cursor:pointer;
+}
+.prompt{
+	font-family:'Brush Script MT', cursive;
+	font-size:48;
+	color:#381c1a;
+}
+.dropdown-content{
+	display:none;
+	position:absolute;
+	background-color: #f0e9d8;
+	min-width:200px;
+	z-index:1;
+	top:100%;
+	right:250px;
+}
+.dropdown-content li a {
+	color:black;
+	padding:10px 12px;
+	text-decoration: none;
+	display:block;
+	margin:10px;
+}
+.dropdown-content li a:hover{
+	background-color:#ddd;
+}
+.dropdown-content li{
+	list-style-type:none;
+}
+/* Show dropdown-content on hover*/
+.dropdown:hover .dropdown-content {
+	display:inline;
+}
+*{
+	margin:0;
+	box-sizing:border-box;
+}
+.all-products{
+	display:grid;
+	grid-template-columns:auto auto auto auto;
+	grid-gap: 5px;
+	align-items:center;
+	justify-content: space-between;
+	align-content:center;
+}
+.heading{
+	font-family:'Brush Script MT', cursive;
+	font-size:48;
+	color:#381c1a;
+}
+.team{
+	display:grid;
+	grid-template-columns:auto auto auto auto;
+	grid-gap: 5px;
+	align-items:center;
+	justify-content: space-between;
+	align-content:center;
+}
+.statement{
+	font-family:Lucida Console;
+	font-size:26px;
+	color:#402829;
+	display:flex;
+	grid-auto-rows: auto;
+	margin:15px;
+	justify-content:center;
+}
+.statement p{
+	font-size:15;
+	color:#515929;
+}
+.statement-card{
+	padding: 10px;
+	text-align: center;
+	border: 1px solid green;
+	border-radius: 10px;
+}
+.statement-card i{
+	color:#402829;
+	}
+.statement-card:first-child{
+	margin-right:105px
+}
+.team-member{
+	border: 15px solid green;
+	border-width:2px;
+	border-radius: 15px ;
+	margin:50px;
+	width:250px;
+	text-align:center;
+	background-color:#d6cabc;
+}
+.contact-us{
+	text-align:center;
+	background-color:#d9e3a8;
+	font-family:monaco;
+	padding:10px;
+	display:flex;
+	grid-auto-rows: auto;
+	align-content:center;
+	align-items:center;
+	justify-content:center;
+	font-size:25;
+	color:#402829;
+}
+.contact-us p{
+	font-size:15;
+	color:#515929;
+}
+.contact-card{
+	padding: 10px;
+	text-align: center;
+	border: 1px solid green;
+	border-radius: 10px;
+	margin:10px;
+	justify-content:center;
+	background-color:#c9b485;
+}
+.contact-card i{
+	color:#402829;
+	}
+.contact-form{
+	margin:40px;
+	width:50%;
+	justify-content:center;
+	align-items:center;
+	align-content:center;
+	font-size:20px;
+	font-weight: bold;
+	border: 1px solid beige;
+	line-height: 15px;
+}
+.contact-form input{
+	width:100%;
+	border:2px solid green;
+	border-radius:10px;
+	height:30px;
+	margin:20px;
+}
+.contact-form button{
+	background-color: #d4c09d;
+	border:1px solid green;
+	border-radius:10px;
+	height:30px;
+	width:20%;
+	font-size:20;
+	font-weight: bold;
+}
+	
+
+	
